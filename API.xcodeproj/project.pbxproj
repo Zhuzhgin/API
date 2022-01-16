@@ -13,6 +13,12 @@
 		CA158DF12791D04A00EAAEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA158DEF2791D04A00EAAEF1 /* Main.storyboard */; };
 		CA158DF32791D05C00EAAEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA158DF22791D05C00EAAEF1 /* Assets.xcassets */; };
 		CA158DF62791D05C00EAAEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA158DF42791D05C00EAAEF1 /* LaunchScreen.storyboard */; };
+		CA158E0027931D5100EAAEF1 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA158DFF27931D5000EAAEF1 /* NetworkingManager.swift */; };
+		CA158E0327931DB400EAAEF1 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA158E0227931DB400EAAEF1 /* Weather.swift */; };
+		CA158E06279346CB00EAAEF1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA158E05279346CB00EAAEF1 /* Location.swift */; };
+		CA158E092793F52900EAAEF1 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA158E082793F52900EAAEF1 /* Cities.swift */; };
+		CA158E0C2794233A00EAAEF1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA158E0B2794233A00EAAEF1 /* DataManager.swift */; };
+		CA158E0F27942FE400EAAEF1 /* StartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA158E0E27942FE400EAAEF1 /* StartTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		CA158DF22791D05C00EAAEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA158DF52791D05C00EAAEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA158DF72791D05C00EAAEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA158DFF27931D5000EAAEF1 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		CA158E0227931DB400EAAEF1 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		CA158E05279346CB00EAAEF1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		CA158E082793F52900EAAEF1 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		CA158E0B2794233A00EAAEF1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CA158E0E27942FE400EAAEF1 /* StartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +71,13 @@
 				CA158DE92791D04900EAAEF1 /* AppDelegate.swift */,
 				CA158DEB2791D04900EAAEF1 /* SceneDelegate.swift */,
 				CA158DED2791D04A00EAAEF1 /* ViewController.swift */,
+				CA158E082793F52900EAAEF1 /* Cities.swift */,
+				CA158E0B2794233A00EAAEF1 /* DataManager.swift */,
+				CA158E0227931DB400EAAEF1 /* Weather.swift */,
+				CA158E05279346CB00EAAEF1 /* Location.swift */,
+				CA158DFF27931D5000EAAEF1 /* NetworkingManager.swift */,
 				CA158DEF2791D04A00EAAEF1 /* Main.storyboard */,
+				CA158E0E27942FE400EAAEF1 /* StartTableViewController.swift */,
 				CA158DF22791D05C00EAAEF1 /* Assets.xcassets */,
 				CA158DF42791D05C00EAAEF1 /* LaunchScreen.storyboard */,
 				CA158DF72791D05C00EAAEF1 /* Info.plist */,
@@ -138,8 +156,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA158DEE2791D04A00EAAEF1 /* ViewController.swift in Sources */,
+				CA158E0F27942FE400EAAEF1 /* StartTableViewController.swift in Sources */,
+				CA158E0C2794233A00EAAEF1 /* DataManager.swift in Sources */,
+				CA158E0027931D5100EAAEF1 /* NetworkingManager.swift in Sources */,
 				CA158DEA2791D04900EAAEF1 /* AppDelegate.swift in Sources */,
 				CA158DEC2791D04900EAAEF1 /* SceneDelegate.swift in Sources */,
+				CA158E092793F52900EAAEF1 /* Cities.swift in Sources */,
+				CA158E06279346CB00EAAEF1 /* Location.swift in Sources */,
+				CA158E0327931DB400EAAEF1 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
